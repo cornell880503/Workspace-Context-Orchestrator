@@ -2,8 +2,6 @@
 
 A prototype demonstrating **Dynamic Context Engineering** and **Quality Loss Diagnostics** for AI assistants operating across multi-source workspace data (Gmail, Google Docs, Calendar).
 
-Built as a technical proof-of-concept for the Google Workspace Context PM role.
-
 ---
 
 ## The Problem
@@ -137,7 +135,7 @@ python3 main.py --role pm --generate --query "Prepare for my project sync"
 ### Setup
 
 ```bash
-git clone https://github.com/cornell880503-bot/Workspace-Context-Orchestrator.git
+git clone https://github.com/cornell880503/Workspace-Context-Orchestrator.git
 cd Workspace-Context-Orchestrator
 git checkout claude/codex-review-integration-38slg
 
